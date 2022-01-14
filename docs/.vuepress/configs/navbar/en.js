@@ -1,8 +1,16 @@
 
 module.exports = [
   {
-    text: 'Guide',
-    link: '/guide/',
+    text: "Home",
+    link: '/en/home/',
+  },
+  {
+    text: "Console",
+    link: 'https://github.com/vuepress/awesome-vuepress',
+  },
+  {
+    text: "API",
+    link: 'https://github.com/vuepress/awesome-vuepress',
   },
   {
     text: 'Reference',
@@ -12,112 +20,112 @@ module.exports = [
         children: [
           {
             text: 'CLI',
-            link: '/reference/cli.html',
+            link: '/en/reference/cli.html',
           },
-          '/reference/config.md',
-          '/reference/frontmatter.md',
-          '/reference/components.md',
-          '/reference/plugin-api.md',
-          '/reference/theme-api.md',
-          '/reference/client-api.md',
-          '/reference/node-api.md',
+          '/en/reference/config.md',
+          '/en/reference/frontmatter.md',
+          '/en/reference/components.md',
+          '/en/reference/plugin-api.md',
+          '/en/reference/theme-api.md',
+          '/en/reference/client-api.md',
+          '/en/reference/node-api.md',
         ],
       },
       {
         text: 'Bundlers',
         children: [
-          '/reference/bundler/vite.md',
-          '/reference/bundler/webpack.md',
+          '/en/reference/bundler/vite.md',
+          '/en/reference/bundler/webpack.md',
         ],
       },
       {
         text: 'Default Theme',
         children: [
-          '/reference/default-theme/config.md',
-          '/reference/default-theme/frontmatter.md',
-          '/reference/default-theme/components.md',
-          '/reference/default-theme/markdown.md',
-          '/reference/default-theme/styles.md',
+          '/en/reference/default-theme/config.md',
+          '/en/reference/default-theme/frontmatter.md',
+          '/en/reference/default-theme/components.md',
+          '/en/reference/default-theme/markdown.md',
+          '/en/reference/default-theme/styles.md',
         ],
       },
     ],
   },
-  {
-    text: 'Plugins',
-    children: [
-      {
-        text: 'Common Features',
-        children: [
-          '/reference/plugin/back-to-top.md',
-          '/reference/plugin/container.md',
-          '/reference/plugin/external-link-icon.md',
-          '/reference/plugin/google-analytics.md',
-          '/reference/plugin/medium-zoom.md',
-          '/reference/plugin/nprogress.md',
-          '/reference/plugin/register-components.md',
-        ],
-      },
-      {
-        text: 'Content Search',
-        children: [
-          '/reference/plugin/docsearch.md',
-          '/reference/plugin/search.md',
-        ],
-      },
-      {
-        text: 'PWA',
-        children: [
-          '/reference/plugin/pwa.md',
-          '/reference/plugin/pwa-popup.md',
-        ],
-      },
-      {
-        text: 'Syntax Highlighting',
-        children: [
-          '/reference/plugin/prismjs.md',
-          '/reference/plugin/shiki.md',
-        ],
-      },
-      {
-        text: 'Theme Development',
-        children: [
-          '/reference/plugin/active-header-links.md',
-          '/reference/plugin/debug.md',
-          '/reference/plugin/git.md',
-          '/reference/plugin/palette.md',
-          '/reference/plugin/theme-data.md',
-          '/reference/plugin/toc.md',
-        ],
-      },
-    ],
-  },
-  {
-    text: 'Learn More',
-    children: [
-      {
-        text: 'Advanced',
-        children: [
-          '/advanced/architecture.md',
-          '/advanced/plugin.md',
-          '/advanced/theme.md',
-          {
-            text: 'Cookbook',
-            link: '/advanced/cookbook/',
-          },
-        ],
-      },
-      {
-        text: 'Resources',
-        children: [
-          '/contributing.md',
-          {
-            text: 'Awesome VuePress',
-            link: 'https://github.com/vuepress/awesome-vuepress',
-          },
-        ],
-      },
-    ],
-  },
+  // {
+  //   text: 'Plugins',
+  //   children: [
+  //     {
+  //       text: 'Common Features',
+  //       children: [
+  //         '/en/reference/plugin/back-to-top.md',
+  //         '/en/reference/plugin/container.md',
+  //         '/en/reference/plugin/external-link-icon.md',
+  //         '/en/reference/plugin/google-analytics.md',
+  //         '/en/reference/plugin/medium-zoom.md',
+  //         '/en/reference/plugin/nprogress.md',
+  //         '/en/reference/plugin/register-components.md',
+  //       ],
+  //     },
+  //     {
+  //       text: 'Content Search',
+  //       children: [
+  //         '/en/reference/plugin/docsearch.md',
+  //         '/en/reference/plugin/search.md',
+  //       ],
+  //     },
+  //     {
+  //       text: 'PWA',
+  //       children: [
+  //         '/en/reference/plugin/pwa.md',
+  //         '/en/reference/plugin/pwa-popup.md',
+  //       ],
+  //     },
+  //     {
+  //       text: 'Syntax Highlighting',
+  //       children: [
+  //         '/en/reference/plugin/prismjs.md',
+  //         '/en/reference/plugin/shiki.md',
+  //       ],
+  //     },
+  //     {
+  //       text: 'Theme Development',
+  //       children: [
+  //         '/en/reference/plugin/active-header-links.md',
+  //         '/en/reference/plugin/debug.md',
+  //         '/en/reference/plugin/git.md',
+  //         '/en/reference/plugin/palette.md',
+  //         '/en/reference/plugin/theme-data.md',
+  //         '/en/reference/plugin/toc.md',
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   text: 'Learn More',
+  //   children: [
+  //     {
+  //       text: 'Advanced',
+  //       children: [
+  //         '/advanced/architecture.md',
+  //         '/advanced/plugin.md',
+  //         '/advanced/theme.md',
+  //         {
+  //           text: 'Cookbook',
+  //           link: '/advanced/cookbook/',
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       text: 'Resources',
+  //       children: [
+  //         '/contributing.md',
+  //         {
+  //           text: 'Awesome VuePress',
+  //           link: 'https://github.com/vuepress/awesome-vuepress',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     text: `v${'version'}`,
     children: [
@@ -137,6 +145,6 @@ module.exports = [
   },
   {
     text: "TMX-Access",
-    link: '/access/00Overview'
+    link: '/en/access/00Overview'
   }
 ]

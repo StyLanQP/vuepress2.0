@@ -1,8 +1,8 @@
 export const siteData = {
   "base": "/",
   "lang": "en-US",
-  "title": "你好， VuePress ！",
-  "description": "这是我的第一个 VuePress 站点",
+  "title": "ThingsMatrix",
+  "description": "Welcome to TMX Documentation",
   "head": [
     [
       "link",
@@ -13,7 +13,7 @@ export const siteData = {
     ]
   ],
   "locales": {
-    "/": {
+    "/en/": {
       "lang": "en-US",
       "title": "ThingsMatrix",
       "description": "Welcome to TMX Documentation"

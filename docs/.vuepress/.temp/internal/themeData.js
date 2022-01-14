@@ -1,13 +1,20 @@
 export const themeData = {
   "darkMode": false,
-  "selectLanguageText": "选择语言",
   "sidebarRight": true,
   "locales": {
     "/": {
       "navbar": [
         {
-          "text": "Guide",
-          "link": "/guide/"
+          "text": "Home",
+          "link": "/en/home/"
+        },
+        {
+          "text": "Console",
+          "link": "https://github.com/vuepress/awesome-vuepress"
+        },
+        {
+          "text": "API",
+          "link": "https://github.com/vuepress/awesome-vuepress"
         },
         {
           "text": "Reference",
@@ -17,108 +24,32 @@ export const themeData = {
               "children": [
                 {
                   "text": "CLI",
-                  "link": "/reference/cli.html"
+                  "link": "/en/reference/cli.html"
                 },
-                "/reference/config.md",
-                "/reference/frontmatter.md",
-                "/reference/components.md",
-                "/reference/plugin-api.md",
-                "/reference/theme-api.md",
-                "/reference/client-api.md",
-                "/reference/node-api.md"
+                "/en/reference/config.md",
+                "/en/reference/frontmatter.md",
+                "/en/reference/components.md",
+                "/en/reference/plugin-api.md",
+                "/en/reference/theme-api.md",
+                "/en/reference/client-api.md",
+                "/en/reference/node-api.md"
               ]
             },
             {
               "text": "Bundlers",
               "children": [
-                "/reference/bundler/vite.md",
-                "/reference/bundler/webpack.md"
+                "/en/reference/bundler/vite.md",
+                "/en/reference/bundler/webpack.md"
               ]
             },
             {
               "text": "Default Theme",
               "children": [
-                "/reference/default-theme/config.md",
-                "/reference/default-theme/frontmatter.md",
-                "/reference/default-theme/components.md",
-                "/reference/default-theme/markdown.md",
-                "/reference/default-theme/styles.md"
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Plugins",
-          "children": [
-            {
-              "text": "Common Features",
-              "children": [
-                "/reference/plugin/back-to-top.md",
-                "/reference/plugin/container.md",
-                "/reference/plugin/external-link-icon.md",
-                "/reference/plugin/google-analytics.md",
-                "/reference/plugin/medium-zoom.md",
-                "/reference/plugin/nprogress.md",
-                "/reference/plugin/register-components.md"
-              ]
-            },
-            {
-              "text": "Content Search",
-              "children": [
-                "/reference/plugin/docsearch.md",
-                "/reference/plugin/search.md"
-              ]
-            },
-            {
-              "text": "PWA",
-              "children": [
-                "/reference/plugin/pwa.md",
-                "/reference/plugin/pwa-popup.md"
-              ]
-            },
-            {
-              "text": "Syntax Highlighting",
-              "children": [
-                "/reference/plugin/prismjs.md",
-                "/reference/plugin/shiki.md"
-              ]
-            },
-            {
-              "text": "Theme Development",
-              "children": [
-                "/reference/plugin/active-header-links.md",
-                "/reference/plugin/debug.md",
-                "/reference/plugin/git.md",
-                "/reference/plugin/palette.md",
-                "/reference/plugin/theme-data.md",
-                "/reference/plugin/toc.md"
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Learn More",
-          "children": [
-            {
-              "text": "Advanced",
-              "children": [
-                "/advanced/architecture.md",
-                "/advanced/plugin.md",
-                "/advanced/theme.md",
-                {
-                  "text": "Cookbook",
-                  "link": "/advanced/cookbook/"
-                }
-              ]
-            },
-            {
-              "text": "Resources",
-              "children": [
-                "/contributing.md",
-                {
-                  "text": "Awesome VuePress",
-                  "link": "https://github.com/vuepress/awesome-vuepress"
-                }
+                "/en/reference/default-theme/config.md",
+                "/en/reference/default-theme/frontmatter.md",
+                "/en/reference/default-theme/components.md",
+                "/en/reference/default-theme/markdown.md",
+                "/en/reference/default-theme/styles.md"
               ]
             }
           ]
@@ -142,104 +73,105 @@ export const themeData = {
         },
         {
           "text": "TMX-Access",
-          "link": "/access/00Overview"
+          "link": "/en/access/00Overview"
         }
       ],
       "sidebarDepth": 1,
+      "selectLanguageText": "Languages",
       "sidebar": {
-        "/": [
+        "/en/": [
           "README.md"
         ],
-        "/guide/": [
+        "/en/guide/": [
           {
             "text": "Guide",
             "level": 2,
             "children": [
-              "/guide/README.md",
-              "/guide/getting-started.md",
-              "/guide/configuration.md",
-              "/guide/page.md",
-              "/guide/markdown.md",
-              "/guide/assets.md",
-              "/guide/i18n.md",
-              "/guide/deployment.md",
-              "/guide/theme.md",
-              "/guide/plugin.md",
-              "/guide/bundler.md",
-              "/guide/migration.md"
+              "/en/guide/README.md",
+              "/en/guide/getting-started.md",
+              "/en/guide/configuration.md",
+              "/en/guide/page.md",
+              "/en/guide/markdown.md",
+              "/en/guide/assets.md",
+              "/en/guide/i18n.md",
+              "/en/guide/deployment.md",
+              "/en/guide/theme.md",
+              "/en/guide/plugin.md",
+              "/en/guide/bundler.md",
+              "/en/guide/migration.md"
             ]
           }
         ],
-        "/access/": [
+        "/en/access/": [
           {
             "text": "TMX-Access",
             "collapsible": true,
             "level": 2,
             "children": [
-              "/access/00Overview.md",
-              "/access/01ConnectingDevices.md",
-              "/access/02ViewingDevices.md",
-              "/access/03GroupingDevices.md",
-              "/access/04DeviceDetails.md",
-              "/access/05ControllingDevices.md",
-              "/access/07LoggingMonitoring.md",
-              "/access/08ManagingDeviceData.md"
+              "/en/access/00Overview.md",
+              "/en/access/01ConnectingDevices.md",
+              "/en/access/02ViewingDevices.md",
+              "/en/access/03GroupingDevices.md",
+              "/en/access/04DeviceDetails.md",
+              "/en/access/05ControllingDevices.md",
+              "/en/access/07LoggingMonitoring.md",
+              "/en/access/08ManagingDeviceData.md"
             ]
           }
         ],
-        "/advanced/": [
+        "/en/advanced/": [
           {
             "text": "Advanced",
             "children": [
-              "/advanced/architecture.md",
-              "/advanced/plugin.md",
-              "/advanced/theme.md"
+              "/en/advanced/architecture.md",
+              "/en/advanced/plugin.md",
+              "/en/advanced/theme.md"
             ]
           },
           {
             "text": "Cookbook",
             "children": [
-              "/advanced/cookbook/README.md",
-              "/advanced/cookbook/usage-of-client-app-enhance.md",
-              "/advanced/cookbook/adding-extra-pages.md",
-              "/advanced/cookbook/extending-a-theme.md",
-              "/advanced/cookbook/passing-data-to-client-code.md",
-              "/advanced/cookbook/markdown-and-vue-sfc.md"
+              "/en/advanced/cookbook/README.md",
+              "/en/advanced/cookbook/usage-of-client-app-enhance.md",
+              "/en/advanced/cookbook/adding-extra-pages.md",
+              "/en/advanced/cookbook/extending-a-theme.md",
+              "/en/advanced/cookbook/passing-data-to-client-code.md",
+              "/en/advanced/cookbook/markdown-and-vue-sfc.md"
             ]
           }
         ],
-        "/reference/": [
+        "/en/reference/": [
           {
             "text": "VuePress Reference",
             "collapsible": true,
             "children": [
-              "/reference/cli.md",
-              "/reference/config.md",
-              "/reference/frontmatter.md",
-              "/reference/components.md",
-              "/reference/plugin-api.md",
-              "/reference/theme-api.md",
-              "/reference/client-api.md",
-              "/reference/node-api.md"
+              "/en/reference/cli.md",
+              "/en/reference/config.md",
+              "/en/reference/frontmatter.md",
+              "/en/reference/components.md",
+              "/en/reference/plugin-api.md",
+              "/en/reference/theme-api.md",
+              "/en/reference/client-api.md",
+              "/en/reference/node-api.md"
             ]
           },
           {
             "text": "Bundlers Reference",
             "collapsible": true,
             "children": [
-              "/reference/bundler/vite.md",
-              "/reference/bundler/webpack.md"
+              "/en/reference/bundler/vite.md",
+              "/en/reference/bundler/webpack.md"
             ]
           },
           {
             "text": "Default Theme Reference",
             "collapsible": true,
             "children": [
-              "/reference/default-theme/config.md",
-              "/reference/default-theme/frontmatter.md",
-              "/reference/default-theme/components.md",
-              "/reference/default-theme/markdown.md",
-              "/reference/default-theme/styles.md"
+              "/en/reference/default-theme/config.md",
+              "/en/reference/default-theme/frontmatter.md",
+              "/en/reference/default-theme/components.md",
+              "/en/reference/default-theme/markdown.md",
+              "/en/reference/default-theme/styles.md"
             ]
           },
           {
@@ -249,45 +181,45 @@ export const themeData = {
               {
                 "text": "Common Features",
                 "children": [
-                  "/reference/plugin/back-to-top.md",
-                  "/reference/plugin/container.md",
-                  "/reference/plugin/external-link-icon.md",
-                  "/reference/plugin/google-analytics.md",
-                  "/reference/plugin/medium-zoom.md",
-                  "/reference/plugin/nprogress.md",
-                  "/reference/plugin/register-components.md"
+                  "/en/reference/plugin/back-to-top.md",
+                  "/en/reference/plugin/container.md",
+                  "/en/reference/plugin/external-link-icon.md",
+                  "/en/reference/plugin/google-analytics.md",
+                  "/en/reference/plugin/medium-zoom.md",
+                  "/en/reference/plugin/nprogress.md",
+                  "/en/reference/plugin/register-components.md"
                 ]
               },
               {
                 "text": "Content Search",
                 "children": [
-                  "/reference/plugin/docsearch.md",
-                  "/reference/plugin/search.md"
+                  "/en/reference/plugin/docsearch.md",
+                  "/en/reference/plugin/search.md"
                 ]
               },
               {
                 "text": "PWA",
                 "children": [
-                  "/reference/plugin/pwa.md",
-                  "/reference/plugin/pwa-popup.md"
+                  "/en/reference/plugin/pwa.md",
+                  "/en/reference/plugin/pwa-popup.md"
                 ]
               },
               {
                 "text": "Syntax Highlighting",
                 "children": [
-                  "/reference/plugin/prismjs.md",
-                  "/reference/plugin/shiki.md"
+                  "/en/reference/plugin/prismjs.md",
+                  "/en/reference/plugin/shiki.md"
                 ]
               },
               {
                 "text": "Theme Development",
                 "children": [
-                  "/reference/plugin/active-header-links.md",
-                  "/reference/plugin/debug.md",
-                  "/reference/plugin/git.md",
-                  "/reference/plugin/palette.md",
-                  "/reference/plugin/theme-data.md",
-                  "/reference/plugin/toc.md"
+                  "/en/reference/plugin/active-header-links.md",
+                  "/en/reference/plugin/debug.md",
+                  "/en/reference/plugin/git.md",
+                  "/en/reference/plugin/palette.md",
+                  "/en/reference/plugin/theme-data.md",
+                  "/en/reference/plugin/toc.md"
                 ]
               }
             ]
@@ -300,8 +232,16 @@ export const themeData = {
     "/en/": {
       "navbar": [
         {
-          "text": "Guide",
-          "link": "/guide/"
+          "text": "Home",
+          "link": "/en/home/"
+        },
+        {
+          "text": "Console",
+          "link": "https://github.com/vuepress/awesome-vuepress"
+        },
+        {
+          "text": "API",
+          "link": "https://github.com/vuepress/awesome-vuepress"
         },
         {
           "text": "Reference",
@@ -311,108 +251,32 @@ export const themeData = {
               "children": [
                 {
                   "text": "CLI",
-                  "link": "/reference/cli.html"
+                  "link": "/en/reference/cli.html"
                 },
-                "/reference/config.md",
-                "/reference/frontmatter.md",
-                "/reference/components.md",
-                "/reference/plugin-api.md",
-                "/reference/theme-api.md",
-                "/reference/client-api.md",
-                "/reference/node-api.md"
+                "/en/reference/config.md",
+                "/en/reference/frontmatter.md",
+                "/en/reference/components.md",
+                "/en/reference/plugin-api.md",
+                "/en/reference/theme-api.md",
+                "/en/reference/client-api.md",
+                "/en/reference/node-api.md"
               ]
             },
             {
               "text": "Bundlers",
               "children": [
-                "/reference/bundler/vite.md",
-                "/reference/bundler/webpack.md"
+                "/en/reference/bundler/vite.md",
+                "/en/reference/bundler/webpack.md"
               ]
             },
             {
               "text": "Default Theme",
               "children": [
-                "/reference/default-theme/config.md",
-                "/reference/default-theme/frontmatter.md",
-                "/reference/default-theme/components.md",
-                "/reference/default-theme/markdown.md",
-                "/reference/default-theme/styles.md"
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Plugins",
-          "children": [
-            {
-              "text": "Common Features",
-              "children": [
-                "/reference/plugin/back-to-top.md",
-                "/reference/plugin/container.md",
-                "/reference/plugin/external-link-icon.md",
-                "/reference/plugin/google-analytics.md",
-                "/reference/plugin/medium-zoom.md",
-                "/reference/plugin/nprogress.md",
-                "/reference/plugin/register-components.md"
-              ]
-            },
-            {
-              "text": "Content Search",
-              "children": [
-                "/reference/plugin/docsearch.md",
-                "/reference/plugin/search.md"
-              ]
-            },
-            {
-              "text": "PWA",
-              "children": [
-                "/reference/plugin/pwa.md",
-                "/reference/plugin/pwa-popup.md"
-              ]
-            },
-            {
-              "text": "Syntax Highlighting",
-              "children": [
-                "/reference/plugin/prismjs.md",
-                "/reference/plugin/shiki.md"
-              ]
-            },
-            {
-              "text": "Theme Development",
-              "children": [
-                "/reference/plugin/active-header-links.md",
-                "/reference/plugin/debug.md",
-                "/reference/plugin/git.md",
-                "/reference/plugin/palette.md",
-                "/reference/plugin/theme-data.md",
-                "/reference/plugin/toc.md"
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Learn More",
-          "children": [
-            {
-              "text": "Advanced",
-              "children": [
-                "/advanced/architecture.md",
-                "/advanced/plugin.md",
-                "/advanced/theme.md",
-                {
-                  "text": "Cookbook",
-                  "link": "/advanced/cookbook/"
-                }
-              ]
-            },
-            {
-              "text": "Resources",
-              "children": [
-                "/contributing.md",
-                {
-                  "text": "Awesome VuePress",
-                  "link": "https://github.com/vuepress/awesome-vuepress"
-                }
+                "/en/reference/default-theme/config.md",
+                "/en/reference/default-theme/frontmatter.md",
+                "/en/reference/default-theme/components.md",
+                "/en/reference/default-theme/markdown.md",
+                "/en/reference/default-theme/styles.md"
               ]
             }
           ]
@@ -436,104 +300,104 @@ export const themeData = {
         },
         {
           "text": "TMX-Access",
-          "link": "/access/00Overview"
+          "link": "/en/access/00Overview"
         }
       ],
       "sidebarDepth": 1,
       "sidebar": {
-        "/": [
+        "/en/": [
           "README.md"
         ],
-        "/guide/": [
+        "/en/guide/": [
           {
             "text": "Guide",
             "level": 2,
             "children": [
-              "/guide/README.md",
-              "/guide/getting-started.md",
-              "/guide/configuration.md",
-              "/guide/page.md",
-              "/guide/markdown.md",
-              "/guide/assets.md",
-              "/guide/i18n.md",
-              "/guide/deployment.md",
-              "/guide/theme.md",
-              "/guide/plugin.md",
-              "/guide/bundler.md",
-              "/guide/migration.md"
+              "/en/guide/README.md",
+              "/en/guide/getting-started.md",
+              "/en/guide/configuration.md",
+              "/en/guide/page.md",
+              "/en/guide/markdown.md",
+              "/en/guide/assets.md",
+              "/en/guide/i18n.md",
+              "/en/guide/deployment.md",
+              "/en/guide/theme.md",
+              "/en/guide/plugin.md",
+              "/en/guide/bundler.md",
+              "/en/guide/migration.md"
             ]
           }
         ],
-        "/access/": [
+        "/en/access/": [
           {
             "text": "TMX-Access",
             "collapsible": true,
             "level": 2,
             "children": [
-              "/access/00Overview.md",
-              "/access/01ConnectingDevices.md",
-              "/access/02ViewingDevices.md",
-              "/access/03GroupingDevices.md",
-              "/access/04DeviceDetails.md",
-              "/access/05ControllingDevices.md",
-              "/access/07LoggingMonitoring.md",
-              "/access/08ManagingDeviceData.md"
+              "/en/access/00Overview.md",
+              "/en/access/01ConnectingDevices.md",
+              "/en/access/02ViewingDevices.md",
+              "/en/access/03GroupingDevices.md",
+              "/en/access/04DeviceDetails.md",
+              "/en/access/05ControllingDevices.md",
+              "/en/access/07LoggingMonitoring.md",
+              "/en/access/08ManagingDeviceData.md"
             ]
           }
         ],
-        "/advanced/": [
+        "/en/advanced/": [
           {
             "text": "Advanced",
             "children": [
-              "/advanced/architecture.md",
-              "/advanced/plugin.md",
-              "/advanced/theme.md"
+              "/en/advanced/architecture.md",
+              "/en/advanced/plugin.md",
+              "/en/advanced/theme.md"
             ]
           },
           {
             "text": "Cookbook",
             "children": [
-              "/advanced/cookbook/README.md",
-              "/advanced/cookbook/usage-of-client-app-enhance.md",
-              "/advanced/cookbook/adding-extra-pages.md",
-              "/advanced/cookbook/extending-a-theme.md",
-              "/advanced/cookbook/passing-data-to-client-code.md",
-              "/advanced/cookbook/markdown-and-vue-sfc.md"
+              "/en/advanced/cookbook/README.md",
+              "/en/advanced/cookbook/usage-of-client-app-enhance.md",
+              "/en/advanced/cookbook/adding-extra-pages.md",
+              "/en/advanced/cookbook/extending-a-theme.md",
+              "/en/advanced/cookbook/passing-data-to-client-code.md",
+              "/en/advanced/cookbook/markdown-and-vue-sfc.md"
             ]
           }
         ],
-        "/reference/": [
+        "/en/reference/": [
           {
             "text": "VuePress Reference",
             "collapsible": true,
             "children": [
-              "/reference/cli.md",
-              "/reference/config.md",
-              "/reference/frontmatter.md",
-              "/reference/components.md",
-              "/reference/plugin-api.md",
-              "/reference/theme-api.md",
-              "/reference/client-api.md",
-              "/reference/node-api.md"
+              "/en/reference/cli.md",
+              "/en/reference/config.md",
+              "/en/reference/frontmatter.md",
+              "/en/reference/components.md",
+              "/en/reference/plugin-api.md",
+              "/en/reference/theme-api.md",
+              "/en/reference/client-api.md",
+              "/en/reference/node-api.md"
             ]
           },
           {
             "text": "Bundlers Reference",
             "collapsible": true,
             "children": [
-              "/reference/bundler/vite.md",
-              "/reference/bundler/webpack.md"
+              "/en/reference/bundler/vite.md",
+              "/en/reference/bundler/webpack.md"
             ]
           },
           {
             "text": "Default Theme Reference",
             "collapsible": true,
             "children": [
-              "/reference/default-theme/config.md",
-              "/reference/default-theme/frontmatter.md",
-              "/reference/default-theme/components.md",
-              "/reference/default-theme/markdown.md",
-              "/reference/default-theme/styles.md"
+              "/en/reference/default-theme/config.md",
+              "/en/reference/default-theme/frontmatter.md",
+              "/en/reference/default-theme/components.md",
+              "/en/reference/default-theme/markdown.md",
+              "/en/reference/default-theme/styles.md"
             ]
           },
           {
@@ -543,58 +407,67 @@ export const themeData = {
               {
                 "text": "Common Features",
                 "children": [
-                  "/reference/plugin/back-to-top.md",
-                  "/reference/plugin/container.md",
-                  "/reference/plugin/external-link-icon.md",
-                  "/reference/plugin/google-analytics.md",
-                  "/reference/plugin/medium-zoom.md",
-                  "/reference/plugin/nprogress.md",
-                  "/reference/plugin/register-components.md"
+                  "/en/reference/plugin/back-to-top.md",
+                  "/en/reference/plugin/container.md",
+                  "/en/reference/plugin/external-link-icon.md",
+                  "/en/reference/plugin/google-analytics.md",
+                  "/en/reference/plugin/medium-zoom.md",
+                  "/en/reference/plugin/nprogress.md",
+                  "/en/reference/plugin/register-components.md"
                 ]
               },
               {
                 "text": "Content Search",
                 "children": [
-                  "/reference/plugin/docsearch.md",
-                  "/reference/plugin/search.md"
+                  "/en/reference/plugin/docsearch.md",
+                  "/en/reference/plugin/search.md"
                 ]
               },
               {
                 "text": "PWA",
                 "children": [
-                  "/reference/plugin/pwa.md",
-                  "/reference/plugin/pwa-popup.md"
+                  "/en/reference/plugin/pwa.md",
+                  "/en/reference/plugin/pwa-popup.md"
                 ]
               },
               {
                 "text": "Syntax Highlighting",
                 "children": [
-                  "/reference/plugin/prismjs.md",
-                  "/reference/plugin/shiki.md"
+                  "/en/reference/plugin/prismjs.md",
+                  "/en/reference/plugin/shiki.md"
                 ]
               },
               {
                 "text": "Theme Development",
                 "children": [
-                  "/reference/plugin/active-header-links.md",
-                  "/reference/plugin/debug.md",
-                  "/reference/plugin/git.md",
-                  "/reference/plugin/palette.md",
-                  "/reference/plugin/theme-data.md",
-                  "/reference/plugin/toc.md"
+                  "/en/reference/plugin/active-header-links.md",
+                  "/en/reference/plugin/debug.md",
+                  "/en/reference/plugin/git.md",
+                  "/en/reference/plugin/palette.md",
+                  "/en/reference/plugin/theme-data.md",
+                  "/en/reference/plugin/toc.md"
                 ]
               }
             ]
           }
         ]
       },
+      "selectLanguageText": "Languages",
       "editLinkText": "Edit this page on GitHub"
     },
     "/zh/": {
       "navbar": [
         {
-          "text": "指南",
-          "link": "/zh/guide/"
+          "text": "Home",
+          "link": "/en/README.md/"
+        },
+        {
+          "text": "Console",
+          "link": "https://github.com/vuepress/awesome-vuepress"
+        },
+        {
+          "text": "API",
+          "link": "https://github.com/vuepress/awesome-vuepress"
         },
         {
           "text": "参考",
@@ -632,82 +505,6 @@ export const themeData = {
           ]
         },
         {
-          "text": "插件",
-          "children": [
-            {
-              "text": "常用功能",
-              "children": [
-                "/zh/reference/plugin/back-to-top.md",
-                "/zh/reference/plugin/container.md",
-                "/zh/reference/plugin/external-link-icon.md",
-                "/zh/reference/plugin/google-analytics.md",
-                "/zh/reference/plugin/medium-zoom.md",
-                "/zh/reference/plugin/nprogress.md",
-                "/zh/reference/plugin/register-components.md"
-              ]
-            },
-            {
-              "text": "内容搜索",
-              "children": [
-                "/zh/reference/plugin/docsearch.md",
-                "/zh/reference/plugin/search.md"
-              ]
-            },
-            {
-              "text": "PWA",
-              "children": [
-                "/zh/reference/plugin/pwa.md",
-                "/zh/reference/plugin/pwa-popup.md"
-              ]
-            },
-            {
-              "text": "语法高亮",
-              "children": [
-                "/zh/reference/plugin/prismjs.md",
-                "/zh/reference/plugin/shiki.md"
-              ]
-            },
-            {
-              "text": "主题开发",
-              "children": [
-                "/zh/reference/plugin/active-header-links.md",
-                "/zh/reference/plugin/debug.md",
-                "/zh/reference/plugin/git.md",
-                "/zh/reference/plugin/palette.md",
-                "/zh/reference/plugin/theme-data.md",
-                "/zh/reference/plugin/toc.md"
-              ]
-            }
-          ]
-        },
-        {
-          "text": "了解更多",
-          "children": [
-            {
-              "text": "深入",
-              "children": [
-                "/zh/advanced/architecture.md",
-                "/zh/advanced/plugin.md",
-                "/zh/advanced/theme.md",
-                {
-                  "text": "Cookbook",
-                  "link": "/zh/advanced/cookbook/"
-                }
-              ]
-            },
-            {
-              "text": "其他资源",
-              "children": [
-                "/zh/contributing.md",
-                {
-                  "text": "Awesome VuePress",
-                  "link": "https://github.com/vuepress/awesome-vuepress"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "text": "vversion",
           "children": [
             {
@@ -730,6 +527,7 @@ export const themeData = {
         }
       ],
       "sidebarDepth": 1,
+      "selectLanguageText": "选择语言",
       "sidebar": {
         "/zh/": [
           {
@@ -898,6 +696,7 @@ export const themeData = {
   "navbar": [],
   "logo": null,
   "repo": null,
+  "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebar": "auto",
   "sidebarDepth": 2,

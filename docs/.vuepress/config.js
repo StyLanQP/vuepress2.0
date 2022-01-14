@@ -7,11 +7,11 @@ module.exports ={
   port: 8081,
   // 站点配置
   lang: "en-US",
-  title: "你好， VuePress ！",
+  title: "ThingsMatrix",
   dest: "dist",
-  description: "这是我的第一个 VuePress 站点",
+  description: "Welcome to TMX Documentation",
   locales: {
-    '/': {
+    '/en/': {
       lang: 'en-US',
       title: 'ThingsMatrix',
       description: 'Welcome to TMX Documentation',
@@ -27,7 +27,7 @@ module.exports ={
   theme: resolve(__dirname, '../theme-default'), // 使用本地主题
   themeConfig: {
     darkMode: false,
-    selectLanguageText: "选择语言",
+    // selectLanguageText: "选择语言",
     sidebarRight: true, // 生成右边侧边栏（左边一级，剩下的放到右边）
     locales: {
       /**
@@ -40,9 +40,9 @@ module.exports ={
         // navbar
         navbar: navbar.en,
         sidebarDepth: 1,
+        selectLanguageText: "Languages",
         // sidebar
         sidebar: sidebar.en,
-
         // page meta
         editLinkText: 'Edit this page on GitHub',
       },
@@ -52,7 +52,7 @@ module.exports ={
         sidebarDepth: 1,
         // sidebar
         sidebar: sidebar.en,
-
+        selectLanguageText: "Languages",
         // page meta
         editLinkText: 'Edit this page on GitHub',
       },
@@ -64,6 +64,7 @@ module.exports ={
         // navbar
         navbar: navbar.zh,
         sidebarDepth: 1,
+        selectLanguageText: "选择语言",
         // sidebar
         sidebar: sidebar.zh,
       },
