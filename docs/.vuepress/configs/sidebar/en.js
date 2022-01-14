@@ -1,10 +1,12 @@
 
-export const en = {
+module.exports = {
+  "/": ['README.md'],
   '/guide/': [
     {
       text: 'Guide',
+      level: 2,
       children: [
-        'https://s3.amazonaws.com/file.thingsmatrix.io/front_cdn/lease_system_admin/prod/zh-CN/index.md',
+        '/guide/README.md',
         '/guide/getting-started.md',
         '/guide/configuration.md',
         '/guide/page.md',
@@ -16,6 +18,23 @@ export const en = {
         '/guide/plugin.md',
         '/guide/bundler.md',
         '/guide/migration.md',
+      ],
+    },
+  ],
+  '/access/': [
+    {
+      text: 'TMX-Access',
+      collapsible: true,
+      level: 2,
+      children: [
+        '/access/00Overview.md',
+        '/access/01ConnectingDevices.md',
+        '/access/02ViewingDevices.md',
+        '/access/03GroupingDevices.md',
+        '/access/04DeviceDetails.md',
+        '/access/05ControllingDevices.md',
+        '/access/07LoggingMonitoring.md',
+        '/access/08ManagingDeviceData.md',
       ],
     },
   ],

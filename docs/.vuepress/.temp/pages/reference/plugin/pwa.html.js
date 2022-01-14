@@ -2,7 +2,7 @@ export const data = {
   "key": "v-7ab4099e",
   "path": "/reference/plugin/pwa.html",
   "title": "pwa",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

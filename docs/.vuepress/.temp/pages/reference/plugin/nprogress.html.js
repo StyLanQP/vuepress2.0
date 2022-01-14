@@ -2,7 +2,7 @@ export const data = {
   "key": "v-46d4f19d",
   "path": "/reference/plugin/nprogress.html",
   "title": "nprogress",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {
     "title": "nprogress"
   },

@@ -1,5 +1,5 @@
 
-export const zh = [
+module.exports = [
   {
     text: '指南',
     link: '/zh/guide/',
@@ -132,4 +132,8 @@ export const zh = [
       },
     ],
   },
+  {
+    text: "TMX-Access",
+    link: '/zh/access/00Overview'
+  }
 ]

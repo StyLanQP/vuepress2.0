@@ -2,7 +2,7 @@ export const data = {
   "key": "v-3df91977",
   "path": "/reference/plugin/container.html",
   "title": "container",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

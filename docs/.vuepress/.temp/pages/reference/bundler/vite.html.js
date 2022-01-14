@@ -2,7 +2,7 @@ export const data = {
   "key": "v-cf5a290e",
   "path": "/reference/bundler/vite.html",
   "title": "Vite",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

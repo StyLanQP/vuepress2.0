@@ -2,7 +2,7 @@ export const data = {
   "key": "v-55453034",
   "path": "/reference/components.html",
   "title": "内置组件",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

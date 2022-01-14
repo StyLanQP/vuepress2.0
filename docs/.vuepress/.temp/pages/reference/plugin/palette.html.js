@@ -2,7 +2,7 @@ export const data = {
   "key": "v-37c5e106",
   "path": "/reference/plugin/palette.html",
   "title": "palette",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

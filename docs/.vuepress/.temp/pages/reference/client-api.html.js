@@ -2,7 +2,7 @@ export const data = {
   "key": "v-a84e51b8",
   "path": "/reference/client-api.html",
   "title": "客户端 API",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

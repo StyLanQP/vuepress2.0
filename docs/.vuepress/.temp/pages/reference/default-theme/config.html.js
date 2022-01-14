@@ -2,7 +2,7 @@ export const data = {
   "key": "v-0f0d17a8",
   "path": "/reference/default-theme/config.html",
   "title": "配置",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

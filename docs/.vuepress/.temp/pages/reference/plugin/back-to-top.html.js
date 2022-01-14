@@ -2,7 +2,7 @@ export const data = {
   "key": "v-6474e88f",
   "path": "/reference/plugin/back-to-top.html",
   "title": "back-to-top",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

@@ -2,7 +2,7 @@ export const data = {
   "key": "v-51569e88",
   "path": "/reference/plugin-api.html",
   "title": "插件 API",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

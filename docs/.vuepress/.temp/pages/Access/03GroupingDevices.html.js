@@ -2,7 +2,7 @@ export const data = {
   "key": "v-10348e14",
   "path": "/access/03GroupingDevices.html",
   "title": "Grouping devices",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

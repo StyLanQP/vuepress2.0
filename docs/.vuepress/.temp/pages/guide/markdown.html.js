@@ -2,7 +2,7 @@ export const data = {
   "key": "v-0978b044",
   "path": "/guide/markdown.html",
   "title": "Markdown",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

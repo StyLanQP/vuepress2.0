@@ -2,7 +2,7 @@ export const data = {
   "key": "v-260e1012",
   "path": "/reference/plugin/search.html",
   "title": "search",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

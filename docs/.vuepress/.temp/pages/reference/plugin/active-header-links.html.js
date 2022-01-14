@@ -2,7 +2,7 @@ export const data = {
   "key": "v-3ba02eb8",
   "path": "/reference/plugin/active-header-links.html",
   "title": "active-header-links",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

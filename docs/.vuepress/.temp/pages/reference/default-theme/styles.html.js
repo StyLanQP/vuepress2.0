@@ -2,7 +2,7 @@ export const data = {
   "key": "v-31e08608",
   "path": "/reference/default-theme/styles.html",
   "title": "样式",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

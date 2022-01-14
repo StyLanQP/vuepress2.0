@@ -2,7 +2,7 @@ export const data = {
   "key": "v-acb10be2",
   "path": "/guide/i18n.html",
   "title": "I18n",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

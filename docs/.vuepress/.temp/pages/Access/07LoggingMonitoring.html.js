@@ -2,7 +2,7 @@ export const data = {
   "key": "v-5956c34b",
   "path": "/access/07LoggingMonitoring.html",
   "title": "Logging and Monitoring",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

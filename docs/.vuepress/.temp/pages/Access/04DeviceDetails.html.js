@@ -2,7 +2,7 @@ export const data = {
   "key": "v-c24fa0ba",
   "path": "/access/04DeviceDetails.html",
   "title": "Device details",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

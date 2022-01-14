@@ -2,7 +2,7 @@ export const data = {
   "key": "v-e8a66a70",
   "path": "/guide/deployment.html",
   "title": "Deployment",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

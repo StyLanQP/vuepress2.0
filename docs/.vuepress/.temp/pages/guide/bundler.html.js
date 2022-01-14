@@ -2,7 +2,7 @@ export const data = {
   "key": "v-6f1f3595",
   "path": "/guide/bundler.html",
   "title": "Bundler",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

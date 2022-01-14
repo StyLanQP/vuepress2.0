@@ -2,7 +2,7 @@ export const data = {
   "key": "v-03ade946",
   "path": "/access/08ManagingDeviceData.html",
   "title": "Managing device data",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

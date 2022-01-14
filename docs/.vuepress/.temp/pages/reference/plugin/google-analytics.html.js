@@ -2,7 +2,7 @@ export const data = {
   "key": "v-b3f1b470",
   "path": "/reference/plugin/google-analytics.html",
   "title": "google-analytics",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

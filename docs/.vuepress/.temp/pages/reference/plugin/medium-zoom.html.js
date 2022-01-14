@@ -2,7 +2,7 @@ export const data = {
   "key": "v-2ad6454d",
   "path": "/reference/plugin/medium-zoom.html",
   "title": "medium-zoom",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

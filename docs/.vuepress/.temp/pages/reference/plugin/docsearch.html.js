@@ -2,7 +2,7 @@ export const data = {
   "key": "v-ec0baf10",
   "path": "/reference/plugin/docsearch.html",
   "title": "docsearch",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

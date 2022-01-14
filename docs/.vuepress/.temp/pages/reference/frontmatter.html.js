@@ -2,7 +2,7 @@ export const data = {
   "key": "v-3590f0ec",
   "path": "/reference/frontmatter.html",
   "title": "Frontmatter",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

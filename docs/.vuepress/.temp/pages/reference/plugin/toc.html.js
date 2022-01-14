@@ -2,7 +2,7 @@ export const data = {
   "key": "v-76709450",
   "path": "/reference/plugin/toc.html",
   "title": "toc",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

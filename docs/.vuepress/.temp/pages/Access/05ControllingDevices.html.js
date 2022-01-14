@@ -2,7 +2,7 @@ export const data = {
   "key": "v-657cd2d8",
   "path": "/access/05ControllingDevices.html",
   "title": "Controlling devices",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

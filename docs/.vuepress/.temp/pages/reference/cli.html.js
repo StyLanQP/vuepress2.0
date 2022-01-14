@@ -2,7 +2,7 @@ export const data = {
   "key": "v-a951be94",
   "path": "/reference/cli.html",
   "title": "命令行接口",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

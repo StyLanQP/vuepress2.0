@@ -2,7 +2,7 @@ export const data = {
   "key": "v-cedc56f2",
   "path": "/access/01ConnectingDevices.html",
   "title": "Connecting devices",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

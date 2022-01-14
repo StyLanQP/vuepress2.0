@@ -2,7 +2,7 @@ export const data = {
   "key": "v-fb0f0066",
   "path": "/guide/getting-started.html",
   "title": "Getting Started",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

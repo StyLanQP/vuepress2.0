@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs --clean-cache",
+    "docs:build": "vuepress build docs --clean-cache"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^2.0.0-beta.32",
@@ -17,6 +17,8 @@
     "@vue/component-compiler-utils": "^3.3.0",
     "@vuepress/plugin-register-components": "^1.9.5",
     "@vuepress/plugin-shiki": "^2.0.0-beta.5",
+    "anywhere": "^1.5.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
     "lru-cache": "^6.0.0"
   }
 }

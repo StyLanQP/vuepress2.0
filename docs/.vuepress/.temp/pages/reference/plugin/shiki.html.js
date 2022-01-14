@@ -2,7 +2,7 @@ export const data = {
   "key": "v-bb2079f4",
   "path": "/reference/plugin/shiki.html",
   "title": "shiki",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

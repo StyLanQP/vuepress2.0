@@ -2,7 +2,7 @@ export const data = {
   "key": "v-5c864690",
   "path": "/reference/plugin/external-link-icon.html",
   "title": "external-link-icon",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

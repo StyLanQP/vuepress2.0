@@ -2,7 +2,7 @@ export const data = {
   "key": "v-d4319af0",
   "path": "/reference/bundler/webpack.html",
   "title": "Webpack",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

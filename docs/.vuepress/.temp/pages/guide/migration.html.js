@@ -2,7 +2,7 @@ export const data = {
   "key": "v-d0112c92",
   "path": "/guide/migration.html",
   "title": "Migrating from v1",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

@@ -2,7 +2,7 @@ export const data = {
   "key": "v-35ebfb0e",
   "path": "/reference/plugin/prismjs.html",
   "title": "prismjs",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

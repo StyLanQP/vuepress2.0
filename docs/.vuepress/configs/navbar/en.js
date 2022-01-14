@@ -1,5 +1,5 @@
 
-export const en = [
+module.exports = [
   {
     text: 'Guide',
     link: '/guide/',
@@ -135,4 +135,8 @@ export const en = [
       },
     ],
   },
+  {
+    text: "TMX-Access",
+    link: '/access/00Overview'
+  }
 ]

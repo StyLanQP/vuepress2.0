@@ -2,7 +2,7 @@ export const data = {
   "key": "v-5d0e84f6",
   "path": "/access/02ViewingDevices.html",
   "title": "Viewing devices",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

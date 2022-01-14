@@ -2,7 +2,7 @@ export const data = {
   "key": "v-7f8fee18",
   "path": "/reference/plugin/register-components.html",
   "title": "register-components",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

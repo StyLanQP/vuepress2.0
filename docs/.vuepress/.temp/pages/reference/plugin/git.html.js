@@ -2,7 +2,7 @@ export const data = {
   "key": "v-0f9e4c06",
   "path": "/reference/plugin/git.html",
   "title": "git",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

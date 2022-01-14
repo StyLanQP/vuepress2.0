@@ -2,7 +2,7 @@ export const data = {
   "key": "v-687d8b36",
   "path": "/reference/plugin/debug.html",
   "title": "debug",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [

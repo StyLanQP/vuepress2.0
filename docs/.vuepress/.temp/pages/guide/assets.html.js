@@ -2,7 +2,7 @@ export const data = {
   "key": "v-3c32c2ca",
   "path": "/guide/assets.html",
   "title": "Assets",
-  "lang": "zh-CN",
+  "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
