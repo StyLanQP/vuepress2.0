@@ -3,6 +3,22 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /en/
   "v-2d0a870d": () => import(/* webpackChunkName: "v-2d0a870d" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/index.html.js").then(({ data }) => data),
+  // path: /access/00Overview.html
+  "v-2d876c6e": () => import(/* webpackChunkName: "v-2d876c6e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/00Overview.html.js").then(({ data }) => data),
+  // path: /access/01ConnectingDevices.html
+  "v-cedc56f2": () => import(/* webpackChunkName: "v-cedc56f2" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/01ConnectingDevices.html.js").then(({ data }) => data),
+  // path: /access/02ViewingDevices.html
+  "v-5d0e84f6": () => import(/* webpackChunkName: "v-5d0e84f6" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/02ViewingDevices.html.js").then(({ data }) => data),
+  // path: /access/03GroupingDevices.html
+  "v-10348e14": () => import(/* webpackChunkName: "v-10348e14" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/03GroupingDevices.html.js").then(({ data }) => data),
+  // path: /access/04DeviceDetails.html
+  "v-c24fa0ba": () => import(/* webpackChunkName: "v-c24fa0ba" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/04DeviceDetails.html.js").then(({ data }) => data),
+  // path: /access/05ControllingDevices.html
+  "v-657cd2d8": () => import(/* webpackChunkName: "v-657cd2d8" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/05ControllingDevices.html.js").then(({ data }) => data),
+  // path: /access/07LoggingMonitoring.html
+  "v-5956c34b": () => import(/* webpackChunkName: "v-5956c34b" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/07LoggingMonitoring.html.js").then(({ data }) => data),
+  // path: /access/08ManagingDeviceData.html
+  "v-03ade946": () => import(/* webpackChunkName: "v-03ade946" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/08ManagingDeviceData.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /guide/assets.html
@@ -27,22 +43,6 @@ export const pagesData = {
   "v-1d14d5cc": () => import(/* webpackChunkName: "v-1d14d5cc" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/guide/plugin.html.js").then(({ data }) => data),
   // path: /guide/theme.html
   "v-4d76029c": () => import(/* webpackChunkName: "v-4d76029c" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/guide/theme.html.js").then(({ data }) => data),
-  // path: /access/00Overview.html
-  "v-2d876c6e": () => import(/* webpackChunkName: "v-2d876c6e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/00Overview.html.js").then(({ data }) => data),
-  // path: /access/01ConnectingDevices.html
-  "v-cedc56f2": () => import(/* webpackChunkName: "v-cedc56f2" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/01ConnectingDevices.html.js").then(({ data }) => data),
-  // path: /access/02ViewingDevices.html
-  "v-5d0e84f6": () => import(/* webpackChunkName: "v-5d0e84f6" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/02ViewingDevices.html.js").then(({ data }) => data),
-  // path: /access/03GroupingDevices.html
-  "v-10348e14": () => import(/* webpackChunkName: "v-10348e14" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/03GroupingDevices.html.js").then(({ data }) => data),
-  // path: /access/04DeviceDetails.html
-  "v-c24fa0ba": () => import(/* webpackChunkName: "v-c24fa0ba" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/04DeviceDetails.html.js").then(({ data }) => data),
-  // path: /access/05ControllingDevices.html
-  "v-657cd2d8": () => import(/* webpackChunkName: "v-657cd2d8" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/05ControllingDevices.html.js").then(({ data }) => data),
-  // path: /access/07LoggingMonitoring.html
-  "v-5956c34b": () => import(/* webpackChunkName: "v-5956c34b" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/07LoggingMonitoring.html.js").then(({ data }) => data),
-  // path: /access/08ManagingDeviceData.html
-  "v-03ade946": () => import(/* webpackChunkName: "v-03ade946" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/access/08ManagingDeviceData.html.js").then(({ data }) => data),
   // path: /reference/cli.html
   "v-a951be94": () => import(/* webpackChunkName: "v-a951be94" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/reference/cli.html.js").then(({ data }) => data),
   // path: /reference/client-api.html
@@ -227,6 +227,122 @@ export const pagesData = {
   "v-5e9d516d": () => import(/* webpackChunkName: "v-5e9d516d" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/zh/reference/plugin-api.html.js").then(({ data }) => data),
   // path: /zh/reference/theme-api.html
   "v-49a27222": () => import(/* webpackChunkName: "v-49a27222" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/zh/reference/theme-api.html.js").then(({ data }) => data),
+  // path: /en/1.0/access/00Overview.html
+  "v-3aea36de": () => import(/* webpackChunkName: "v-3aea36de" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/access/00Overview.html.js").then(({ data }) => data),
+  // path: /en/1.0/access/01ConnectingDevices.html
+  "v-4cd3c817": () => import(/* webpackChunkName: "v-4cd3c817" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/access/01ConnectingDevices.html.js").then(({ data }) => data),
+  // path: /en/1.0/access/02ViewingDevices.html
+  "v-c6541816": () => import(/* webpackChunkName: "v-c6541816" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/access/02ViewingDevices.html.js").then(({ data }) => data),
+  // path: /en/1.0/access/03GroupingDevices.html
+  "v-9f03b4b8": () => import(/* webpackChunkName: "v-9f03b4b8" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/access/03GroupingDevices.html.js").then(({ data }) => data),
+  // path: /en/1.0/access/04DeviceDetails.html
+  "v-10c26b33": () => import(/* webpackChunkName: "v-10c26b33" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/access/04DeviceDetails.html.js").then(({ data }) => data),
+  // path: /en/1.0/access/05ControllingDevices.html
+  "v-39795148": () => import(/* webpackChunkName: "v-39795148" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/access/05ControllingDevices.html.js").then(({ data }) => data),
+  // path: /en/1.0/access/07LoggingMonitoring.html
+  "v-0d98b6db": () => import(/* webpackChunkName: "v-0d98b6db" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/access/07LoggingMonitoring.html.js").then(({ data }) => data),
+  // path: /en/1.0/access/08ManagingDeviceData.html
+  "v-5bb4ec66": () => import(/* webpackChunkName: "v-5bb4ec66" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/access/08ManagingDeviceData.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/
+  "v-5fa7e35c": () => import(/* webpackChunkName: "v-5fa7e35c" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/index.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/assets.html
+  "v-2e119b4c": () => import(/* webpackChunkName: "v-2e119b4c" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/assets.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/bundler.html
+  "v-5ae8b805": () => import(/* webpackChunkName: "v-5ae8b805" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/bundler.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/configuration.html
+  "v-e1b28c02": () => import(/* webpackChunkName: "v-e1b28c02" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/configuration.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/deployment.html
+  "v-5a8ef258": () => import(/* webpackChunkName: "v-5a8ef258" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/deployment.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/getting-started.html
+  "v-3390923d": () => import(/* webpackChunkName: "v-3390923d" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/getting-started.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/i18n.html
+  "v-38e28d9f": () => import(/* webpackChunkName: "v-38e28d9f" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/i18n.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/markdown.html
+  "v-eeab1924": () => import(/* webpackChunkName: "v-eeab1924" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/markdown.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/migration.html
+  "v-912bdfb2": () => import(/* webpackChunkName: "v-912bdfb2" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/migration.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/page.html
+  "v-67e343ce": () => import(/* webpackChunkName: "v-67e343ce" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/page.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/plugin.html
+  "v-c38bf6ac": () => import(/* webpackChunkName: "v-c38bf6ac" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/plugin.html.js").then(({ data }) => data),
+  // path: /en/1.0/guide/theme.html
+  "v-b4c53de8": () => import(/* webpackChunkName: "v-b4c53de8" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/guide/theme.html.js").then(({ data }) => data),
+  // path: /en/1.0/home/
+  "v-4d73ef67": () => import(/* webpackChunkName: "v-4d73ef67" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/home/index.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/cli.html
+  "v-d1beb9b4": () => import(/* webpackChunkName: "v-d1beb9b4" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/cli.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/client-api.html
+  "v-673cb6b4": () => import(/* webpackChunkName: "v-673cb6b4" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/client-api.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/components.html
+  "v-de7d7114": () => import(/* webpackChunkName: "v-de7d7114" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/components.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/config.html
+  "v-75bd744a": () => import(/* webpackChunkName: "v-75bd744a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/config.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/frontmatter.html
+  "v-32adf948": () => import(/* webpackChunkName: "v-32adf948" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/frontmatter.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/node-api.html
+  "v-2f0629c6": () => import(/* webpackChunkName: "v-2f0629c6" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/node-api.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin-api.html
+  "v-da8edf68": () => import(/* webpackChunkName: "v-da8edf68" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin-api.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/theme-api.html
+  "v-a95e9fa0": () => import(/* webpackChunkName: "v-a95e9fa0" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/theme-api.html.js").then(({ data }) => data),
+  // path: /en/2.0/access/00Overview.html
+  "v-3cc389fd": () => import(/* webpackChunkName: "v-3cc389fd" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/access/00Overview.html.js").then(({ data }) => data),
+  // path: /en/2.0/access/01ConnectingDevices.html
+  "v-98a6f050": () => import(/* webpackChunkName: "v-98a6f050" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/access/01ConnectingDevices.html.js").then(({ data }) => data),
+  // path: /en/2.0/access/02ViewingDevices.html
+  "v-250633d4": () => import(/* webpackChunkName: "v-250633d4" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/access/02ViewingDevices.html.js").then(({ data }) => data),
+  // path: /en/2.0/access/03GroupingDevices.html
+  "v-2e55e1a5": () => import(/* webpackChunkName: "v-2e55e1a5" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/access/03GroupingDevices.html.js").then(({ data }) => data),
+  // path: /en/2.0/access/04DeviceDetails.html
+  "v-25ab3374": () => import(/* webpackChunkName: "v-25ab3374" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/access/04DeviceDetails.html.js").then(({ data }) => data),
+  // path: /en/2.0/access/05ControllingDevices.html
+  "v-a48eecb2": () => import(/* webpackChunkName: "v-a48eecb2" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/access/05ControllingDevices.html.js").then(({ data }) => data),
+  // path: /en/2.0/access/07LoggingMonitoring.html
+  "v-7471769c": () => import(/* webpackChunkName: "v-7471769c" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/access/07LoggingMonitoring.html.js").then(({ data }) => data),
+  // path: /en/2.0/access/08ManagingDeviceData.html
+  "v-4664c22c": () => import(/* webpackChunkName: "v-4664c22c" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/access/08ManagingDeviceData.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/
+  "v-53f1547b": () => import(/* webpackChunkName: "v-53f1547b" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/index.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/assets.html
+  "v-14dfb04a": () => import(/* webpackChunkName: "v-14dfb04a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/assets.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/bundler.html
+  "v-3d231ab8": () => import(/* webpackChunkName: "v-3d231ab8" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/bundler.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/configuration.html
+  "v-7ff7c15e": () => import(/* webpackChunkName: "v-7ff7c15e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/configuration.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/deployment.html
+  "v-4281814e": () => import(/* webpackChunkName: "v-4281814e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/deployment.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/getting-started.html
+  "v-343d3ddc": () => import(/* webpackChunkName: "v-343d3ddc" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/getting-started.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/i18n.html
+  "v-068cef60": () => import(/* webpackChunkName: "v-068cef60" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/i18n.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/markdown.html
+  "v-5a47e6a2": () => import(/* webpackChunkName: "v-5a47e6a2" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/markdown.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/migration.html
+  "v-9928c1f4": () => import(/* webpackChunkName: "v-9928c1f4" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/migration.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/page.html
+  "v-358da58f": () => import(/* webpackChunkName: "v-358da58f" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/page.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/plugin.html
+  "v-aa5a0baa": () => import(/* webpackChunkName: "v-aa5a0baa" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/plugin.html.js").then(({ data }) => data),
+  // path: /en/2.0/guide/theme.html
+  "v-e581912a": () => import(/* webpackChunkName: "v-e581912a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/guide/theme.html.js").then(({ data }) => data),
+  // path: /en/2.0/home/
+  "v-3c8f4330": () => import(/* webpackChunkName: "v-3c8f4330" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/home/index.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/cli.html
+  "v-1da65dc5": () => import(/* webpackChunkName: "v-1da65dc5" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/cli.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/client-api.html
+  "v-dee6c996": () => import(/* webpackChunkName: "v-dee6c996" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/client-api.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/components.html
+  "v-8bdda812": () => import(/* webpackChunkName: "v-8bdda812" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/components.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/config.html
+  "v-0c247d6a": () => import(/* webpackChunkName: "v-0c247d6a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/config.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/frontmatter.html
+  "v-3154a20a": () => import(/* webpackChunkName: "v-3154a20a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/frontmatter.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/node-api.html
+  "v-21cdfbde": () => import(/* webpackChunkName: "v-21cdfbde" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/node-api.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin-api.html
+  "v-87ef1666": () => import(/* webpackChunkName: "v-87ef1666" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin-api.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/theme-api.html
+  "v-c7bc90e2": () => import(/* webpackChunkName: "v-c7bc90e2" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/theme-api.html.js").then(({ data }) => data),
   // path: /en/reference/bundler/vite.html
   "v-59ab6ae5": () => import(/* webpackChunkName: "v-59ab6ae5" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/reference/bundler/vite.html.js").then(({ data }) => data),
   // path: /en/reference/bundler/webpack.html
@@ -331,6 +447,110 @@ export const pagesData = {
   "v-411f140a": () => import(/* webpackChunkName: "v-411f140a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/zh/reference/plugin/theme-data.html.js").then(({ data }) => data),
   // path: /zh/reference/plugin/toc.html
   "v-048d95fe": () => import(/* webpackChunkName: "v-048d95fe" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/zh/reference/plugin/toc.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/bundler/vite.html
+  "v-0a3d2709": () => import(/* webpackChunkName: "v-0a3d2709" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/bundler/vite.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/bundler/webpack.html
+  "v-025ee610": () => import(/* webpackChunkName: "v-025ee610" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/bundler/webpack.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/default-theme/components.html
+  "v-27d16f64": () => import(/* webpackChunkName: "v-27d16f64" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/default-theme/components.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/default-theme/config.html
+  "v-230ac338": () => import(/* webpackChunkName: "v-230ac338" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/default-theme/config.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/default-theme/frontmatter.html
+  "v-319dd92e": () => import(/* webpackChunkName: "v-319dd92e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/default-theme/frontmatter.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/default-theme/markdown.html
+  "v-00ea8d2a": () => import(/* webpackChunkName: "v-00ea8d2a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/default-theme/markdown.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/default-theme/styles.html
+  "v-45de3198": () => import(/* webpackChunkName: "v-45de3198" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/default-theme/styles.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/active-header-links.html
+  "v-28f2ee48": () => import(/* webpackChunkName: "v-28f2ee48" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/active-header-links.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/back-to-top.html
+  "v-1008381f": () => import(/* webpackChunkName: "v-1008381f" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/back-to-top.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/container.html
+  "v-1b89e5f2": () => import(/* webpackChunkName: "v-1b89e5f2" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/container.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/debug.html
+  "v-3dab75f5": () => import(/* webpackChunkName: "v-3dab75f5" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/debug.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/docsearch.html
+  "v-3e3c1c08": () => import(/* webpackChunkName: "v-3e3c1c08" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/docsearch.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/external-link-icon.html
+  "v-01155500": () => import(/* webpackChunkName: "v-01155500" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/external-link-icon.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/git.html
+  "v-69fba8d4": () => import(/* webpackChunkName: "v-69fba8d4" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/git.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/google-analytics.html
+  "v-02e71038": () => import(/* webpackChunkName: "v-02e71038" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/google-analytics.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/medium-zoom.html
+  "v-532cd646": () => import(/* webpackChunkName: "v-532cd646" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/medium-zoom.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/nprogress.html
+  "v-09d235a6": () => import(/* webpackChunkName: "v-09d235a6" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/nprogress.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/palette.html
+  "v-f732b1e6": () => import(/* webpackChunkName: "v-f732b1e6" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/palette.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/prismjs.html
+  "v-5394dac4": () => import(/* webpackChunkName: "v-5394dac4" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/prismjs.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/pwa-popup.html
+  "v-13c81c2f": () => import(/* webpackChunkName: "v-13c81c2f" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/pwa-popup.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/pwa.html
+  "v-3617e92e": () => import(/* webpackChunkName: "v-3617e92e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/pwa.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/register-components.html
+  "v-6ce2ada8": () => import(/* webpackChunkName: "v-6ce2ada8" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/register-components.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/search.html
+  "v-1d2972fc": () => import(/* webpackChunkName: "v-1d2972fc" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/search.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/shiki.html
+  "v-1459fe96": () => import(/* webpackChunkName: "v-1459fe96" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/shiki.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/theme-data.html
+  "v-260ce388": () => import(/* webpackChunkName: "v-260ce388" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/theme-data.html.js").then(({ data }) => data),
+  // path: /en/1.0/reference/plugin/toc.html
+  "v-31d473e0": () => import(/* webpackChunkName: "v-31d473e0" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/1.0/reference/plugin/toc.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/bundler/vite.html
+  "v-1f25ef4a": () => import(/* webpackChunkName: "v-1f25ef4a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/bundler/vite.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/bundler/webpack.html
+  "v-3bf05117": () => import(/* webpackChunkName: "v-3bf05117" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/bundler/webpack.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/default-theme/components.html
+  "v-0d12de25": () => import(/* webpackChunkName: "v-0d12de25" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/default-theme/components.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/default-theme/config.html
+  "v-27e88b0e": () => import(/* webpackChunkName: "v-27e88b0e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/default-theme/config.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/default-theme/frontmatter.html
+  "v-16eb7ae6": () => import(/* webpackChunkName: "v-16eb7ae6" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/default-theme/frontmatter.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/default-theme/markdown.html
+  "v-e7aa3728": () => import(/* webpackChunkName: "v-e7aa3728" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/default-theme/markdown.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/default-theme/styles.html
+  "v-0edf28d9": () => import(/* webpackChunkName: "v-0edf28d9" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/default-theme/styles.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/active-header-links.html
+  "v-78d89e6e": () => import(/* webpackChunkName: "v-78d89e6e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/active-header-links.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/back-to-top.html
+  "v-23b00ba0": () => import(/* webpackChunkName: "v-23b00ba0" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/back-to-top.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/container.html
+  "v-5913ccc8": () => import(/* webpackChunkName: "v-5913ccc8" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/container.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/debug.html
+  "v-52943e36": () => import(/* webpackChunkName: "v-52943e36" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/debug.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/docsearch.html
+  "v-b5d6486e": () => import(/* webpackChunkName: "v-b5d6486e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/docsearch.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/external-link-icon.html
+  "v-77fc8342": () => import(/* webpackChunkName: "v-77fc8342" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/external-link-icon.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/git.html
+  "v-175bdfd2": () => import(/* webpackChunkName: "v-175bdfd2" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/git.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/google-analytics.html
+  "v-0a4c4557": () => import(/* webpackChunkName: "v-0a4c4557" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/google-analytics.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/medium-zoom.html
+  "v-2bdd2f44": () => import(/* webpackChunkName: "v-2bdd2f44" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/medium-zoom.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/nprogress.html
+  "v-61efa4ee": () => import(/* webpackChunkName: "v-61efa4ee" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/nprogress.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/palette.html
+  "v-023e630e": () => import(/* webpackChunkName: "v-023e630e" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/palette.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/prismjs.html
+  "v-540d4e9f": () => import(/* webpackChunkName: "v-540d4e9f" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/prismjs.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/pwa-popup.html
+  "v-7aa0dbf0": () => import(/* webpackChunkName: "v-7aa0dbf0" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/pwa-popup.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/pwa.html
+  "v-5f67cdaf": () => import(/* webpackChunkName: "v-5f67cdaf" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/pwa.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/register-components.html
+  "v-07837029": () => import(/* webpackChunkName: "v-07837029" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/register-components.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/search.html
+  "v-799b8661": () => import(/* webpackChunkName: "v-799b8661" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/search.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/shiki.html
+  "v-2942c6d7": () => import(/* webpackChunkName: "v-2942c6d7" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/shiki.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/theme-data.html
+  "v-6138c69b": () => import(/* webpackChunkName: "v-6138c69b" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/theme-data.html.js").then(({ data }) => data),
+  // path: /en/2.0/reference/plugin/toc.html
+  "v-5b245861": () => import(/* webpackChunkName: "v-5b245861" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/en/2.0/reference/plugin/toc.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/lanqiuping/Desktop/vuepress2.0/vuepress2.0/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }

@@ -55,7 +55,7 @@ export const themeData = {
           ]
         },
         {
-          "text": "vversion",
+          "text": "v2.0.0-beta.32",
           "children": [
             {
               "text": "Changelog",
@@ -282,7 +282,7 @@ export const themeData = {
           ]
         },
         {
-          "text": "vversion",
+          "text": "v2.0.0-beta.32",
           "children": [
             {
               "text": "Changelog",

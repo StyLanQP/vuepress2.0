@@ -1,4 +1,4 @@
-
+const { version } = require('../meta')
 module.exports = [
   {
     text: "Home",
@@ -127,7 +127,7 @@ module.exports = [
   //   ],
   // },
   {
-    text: `v${'version'}`,
+    text: `v${version}`,
     children: [
       {
         text: 'Changelog',
