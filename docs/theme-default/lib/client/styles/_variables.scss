@@ -1,9 +1,14 @@
 @import '@vuepress/plugin-palette/palette';
 
 // responsive breakpoints
-$MQNarrow: 959px !default;
-$MQMobile: 719px !default;
+$MQNarrow: 1200px !default;
+$MQMobile: 720px !default;
 $MQMobileNarrow: 419px !default;
+
+@font-face {
+  font-family: "Inter";
+  src: url("/font/Inter-Regular.ttf");
+}
 
 // code languages
 $codeLang: 'c' 'cpp' 'cs' 'css' 'dart' 'docker' 'fs' 'go' 'html' 'java' 'js'

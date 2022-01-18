@@ -1,6 +1,12 @@
 export const themeData = {
   "darkMode": false,
+  "logo": "/images/tmxlogo.svg",
+  "home": "/en/home/",
   "sidebarRight": true,
+  "sidebarDepth": 1,
+  "editLink": false,
+  "lastUpdated": true,
+  "lastUpdatedText": "最后更新时间",
   "locales": {
     "/": {
       "navbar": [
@@ -76,7 +82,6 @@ export const themeData = {
           "link": "/en/access/00Overview"
         }
       ],
-      "sidebarDepth": 1,
       "selectLanguageText": "Languages",
       "sidebar": {
         "/en/": [
@@ -226,7 +231,6 @@ export const themeData = {
           }
         ]
       },
-      "editLinkText": "Edit this page on GitHub",
       "selectLanguageName": "English"
     },
     "/en/": {
@@ -303,7 +307,6 @@ export const themeData = {
           "link": "/en/access/00Overview"
         }
       ],
-      "sidebarDepth": 1,
       "sidebar": {
         "/en/": [
           "README.md"
@@ -452,21 +455,20 @@ export const themeData = {
           }
         ]
       },
-      "selectLanguageText": "Languages",
-      "editLinkText": "Edit this page on GitHub"
+      "selectLanguageText": "Languages"
     },
     "/zh/": {
       "navbar": [
         {
-          "text": "Home",
-          "link": "/en/README.md/"
+          "text": "首页",
+          "link": "/zh/home/"
         },
         {
-          "text": "Console",
+          "text": "Console文档",
           "link": "https://github.com/vuepress/awesome-vuepress"
         },
         {
-          "text": "API",
+          "text": "API文档",
           "link": "https://github.com/vuepress/awesome-vuepress"
         },
         {
@@ -526,8 +528,8 @@ export const themeData = {
           "link": "/zh/access/00Overview"
         }
       ],
-      "sidebarDepth": 1,
       "selectLanguageText": "选择语言",
+      "backToHome": "返回首页",
       "sidebar": {
         "/zh/": [
           {
@@ -694,16 +696,11 @@ export const themeData = {
     }
   },
   "navbar": [],
-  "logo": null,
   "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebar": "auto",
-  "sidebarDepth": 2,
-  "editLink": true,
   "editLinkText": "Edit this page",
-  "lastUpdated": true,
-  "lastUpdatedText": "Last Updated",
   "contributors": true,
   "contributorsText": "Contributors",
   "notFound": [

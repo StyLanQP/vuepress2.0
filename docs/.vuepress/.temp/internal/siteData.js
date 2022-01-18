@@ -1,26 +1,26 @@
 export const siteData = {
   "base": "/",
   "lang": "en-US",
-  "title": "ThingsMatrix",
+  "title": "",
   "description": "Welcome to TMX Documentation",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/logo.png"
+        "href": "/favicon.ico"
       }
     ]
   ],
   "locales": {
     "/en/": {
       "lang": "en-US",
-      "title": "ThingsMatrix",
+      "title": "",
       "description": "Welcome to TMX Documentation"
     },
     "/zh/": {
       "lang": "zh-CN",
-      "title": "ThingsMatrix",
+      "title": "",
       "description": "Welcome to TMX Documentation"
     }
   }

@@ -1,15 +1,15 @@
 
 module.exports = [
   {
-    text: "Home",
-    link: '/en/README.md/',
+    text: "首页",
+    link: '/zh/home/',
   },
   {
-    text: "Console",
+    text: "Console文档",
     link: 'https://github.com/vuepress/awesome-vuepress',
   },
   {
-    text: "API",
+    text: "API文档",
     link: 'https://github.com/vuepress/awesome-vuepress',
   },
   {
@@ -47,82 +47,6 @@ module.exports = [
       },
     ],
   },
-  // {
-  //   text: '插件',
-  //   children: [
-  //     {
-  //       text: '常用功能',
-  //       children: [
-  //         '/zh/reference/plugin/back-to-top.md',
-  //         '/zh/reference/plugin/container.md',
-  //         '/zh/reference/plugin/external-link-icon.md',
-  //         '/zh/reference/plugin/google-analytics.md',
-  //         '/zh/reference/plugin/medium-zoom.md',
-  //         '/zh/reference/plugin/nprogress.md',
-  //         '/zh/reference/plugin/register-components.md',
-  //       ],
-  //     },
-  //     {
-  //       text: '内容搜索',
-  //       children: [
-  //         '/zh/reference/plugin/docsearch.md',
-  //         '/zh/reference/plugin/search.md',
-  //       ],
-  //     },
-  //     {
-  //       text: 'PWA',
-  //       children: [
-  //         '/zh/reference/plugin/pwa.md',
-  //         '/zh/reference/plugin/pwa-popup.md',
-  //       ],
-  //     },
-  //     {
-  //       text: '语法高亮',
-  //       children: [
-  //         '/zh/reference/plugin/prismjs.md',
-  //         '/zh/reference/plugin/shiki.md',
-  //       ],
-  //     },
-  //     {
-  //       text: '主题开发',
-  //       children: [
-  //         '/zh/reference/plugin/active-header-links.md',
-  //         '/zh/reference/plugin/debug.md',
-  //         '/zh/reference/plugin/git.md',
-  //         '/zh/reference/plugin/palette.md',
-  //         '/zh/reference/plugin/theme-data.md',
-  //         '/zh/reference/plugin/toc.md',
-  //       ],
-  //     },
-  //   ],
-  // },
-  // {
-  //   text: '了解更多',
-  //   children: [
-  //     {
-  //       text: '深入',
-  //       children: [
-  //         '/zh/advanced/architecture.md',
-  //         '/zh/advanced/plugin.md',
-  //         '/zh/advanced/theme.md',
-  //         {
-  //           text: 'Cookbook',
-  //           link: '/zh/advanced/cookbook/',
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       text: '其他资源',
-  //       children: [
-  //         '/zh/contributing.md',
-  //         {
-  //           text: 'Awesome VuePress',
-  //           link: 'https://github.com/vuepress/awesome-vuepress',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
   {
     text: `v${'version'}`,
     children: [

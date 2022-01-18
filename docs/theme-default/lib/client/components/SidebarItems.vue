@@ -13,7 +13,10 @@ const props = defineProps({
     default: "left",
   },
 });
+const themeLocale = useThemeLocaleData()
 const sidebarItems = useSidebarItems();
+
+const isNeedSidebarRight = computed(() => themeLocale.value.sidebarRight);
 const isNeedRight = ref(props.position === "right");
 
 const route = useRoute();
@@ -68,7 +71,7 @@ const newSidebarItems = computed(() => {
 onMounted(() => {
   // TODO: migrate to css var
   // refer to _variables.scss
-  const MOBILE_DESKTOP_BREAKPOINT = 959;
+  const MOBILE_DESKTOP_BREAKPOINT = 1200;
   const handleLinksWrapWidth = (): void => {
     if (window.innerWidth <= MOBILE_DESKTOP_BREAKPOINT) {
       isNeedRight.value = false;

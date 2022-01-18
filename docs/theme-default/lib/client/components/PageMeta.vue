@@ -96,10 +96,12 @@ const themeLocale = useThemeLocaleData()
 const editNavLink = useEditNavLink()
 const lastUpdated = useLastUpdated()
 const contributors = useContributors()
+
+console.log("lastUpdated", lastUpdated)
 </script>
 
 <template>
-  <footer class="page-meta">
+  <footer class="page-meta" v-if="editNavLink || lastUpdated || (contributors && contributors.length)">
     <div v-if="editNavLink" class="meta-item edit-link">
       <AutoLink class="meta-item-label" :item="editNavLink" />
     </div>

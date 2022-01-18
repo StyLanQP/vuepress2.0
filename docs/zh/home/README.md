@@ -19,4 +19,4 @@ footer: © 2022 ThingsMatrix Inc. All Rights Reserved.
 
 ---
 
-<Home title="home"></Home>
+<Home text="首页"></Home>

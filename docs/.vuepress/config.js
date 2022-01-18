@@ -2,23 +2,23 @@
 const {resolve} = require("path");
 const isProd = process.env.NODE_ENV === 'production'
 const { navbar, sidebar } = require('./configs/index')
-console.log("ddd", navbar.zh)
 module.exports ={
   port: 8081,
   // 站点配置
   lang: "en-US",
-  title: "ThingsMatrix",
+  title: "",
   dest: "dist",
   description: "Welcome to TMX Documentation",
+  home: "/en/home/",
   locales: {
     '/en/': {
       lang: 'en-US',
-      title: 'ThingsMatrix',
+      title: '',
       description: 'Welcome to TMX Documentation',
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'ThingsMatrix',
+      title: '',
       description: 'Welcome to TMX Documentation',
     },
   },
@@ -26,9 +26,15 @@ module.exports ={
   // theme: "@vuepress/theme-default",
   theme: resolve(__dirname, '../theme-default'), // 使用本地主题
   themeConfig: {
-    darkMode: false,
+    darkMode: false, //是否启用切换夜间模式
+    logo: '/images/tmxlogo.svg',
+    home: "/en/home/",
     // selectLanguageText: "选择语言",
     sidebarRight: true, // 生成右边侧边栏（左边一级，剩下的放到右边）
+    sidebarDepth: 1, //设置根据页面标题自动生成的侧边栏的最大深度。
+    editLink: false, //是否启用 编辑此页 链接。
+    lastUpdated: true,
+    lastUpdatedText: '最后更新时间',
     locales: {
       /**
        * English locale config
@@ -39,22 +45,20 @@ module.exports ={
       '/': {
         // navbar
         navbar: navbar.en,
-        sidebarDepth: 1,
         selectLanguageText: "Languages",
         // sidebar
         sidebar: sidebar.en,
         // page meta
-        editLinkText: 'Edit this page on GitHub',
+        // editLinkText: 'Edit this page on GitHub',
       },
       '/en/': {
         // navbar
         navbar: navbar.en,
-        sidebarDepth: 1,
         // sidebar
         sidebar: sidebar.en,
         selectLanguageText: "Languages",
         // page meta
-        editLinkText: 'Edit this page on GitHub',
+        // editLinkText: 'Edit this page on GitHub',
       },
 
       /**
@@ -63,8 +67,8 @@ module.exports ={
       '/zh/': {
         // navbar
         navbar: navbar.zh,
-        sidebarDepth: 1,
         selectLanguageText: "选择语言",
+        backToHome: '返回首页',
         // sidebar
         sidebar: sidebar.zh,
       },
@@ -74,7 +78,7 @@ module.exports ={
       git: isProd,
     },
   },
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   markdown: {
     importCode: {
       handleImportPath: (str) =>
@@ -98,6 +102,9 @@ module.exports ={
       {
         locales: {
           "/": {
+            placeholder: "Search",
+          },
+          "/en/": {
             placeholder: "Search",
           },
           "/zh/": {

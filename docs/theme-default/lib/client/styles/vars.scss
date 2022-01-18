@@ -1,7 +1,9 @@
 @import '_variables';
 :root {
   // brand colors
-  --c-brand: #3eaf7c;
+  // --c-brand: #3eaf7c;
+  // --c-brand-light: #4abf8a;
+  --c-brand: #0A8BF5;
   --c-brand-light: #4abf8a;
 
   // background colors
@@ -11,17 +13,21 @@
   --c-bg-navbar: var(--c-bg);
   --c-bg-sidebar: var(--c-bg);
   --c-bg-arrow: #cccccc;
+  --c-bg-sidebar-hover: #F5F7F9;
+  --c-bg-select-hover: #EBF2FF;
 
   // text colors
-  --c-text: #2c3e50;
+  --c-text: #21335D;
   --c-text-accent: var(--c-brand);
   --c-text-light: #3a5169;
   --c-text-lighter: #4e6e8e;
   --c-text-lightest: #6a8bad;
   --c-text-quote: #999999;
+  --c-text-navbar-active: #1D2129;
+  --c-text-navbar-inherit: #526081;
 
   // border colors
-  --c-border: #eaecef;
+  --c-border: #E6E6E6;
   --c-border-dark: #dfe2e5;
 
   // custom container colors
@@ -52,22 +58,24 @@
   --t-transform: 0.3s ease;
 
   // code blocks vars
-  --code-bg-color: #282c34;
+  --code-bg-color: #001529;
   --code-hl-bg-color: rgba(0, 0, 0, 0.66);
   --code-ln-color: #9e9e9e;
   --code-ln-wrapper-width: 3.5rem;
 
   // font vars
-  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  --font-family-code: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --font-family-code: Courier, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
   // layout vars
-  --navbar-height: 3.6rem;
-  --navbar-padding-v: 0.7rem;
-  --navbar-padding-h: 1.5rem;
-  --sidebar-width: 20rem;
-  --sidebar-right-width: 20rem;
+  --navbar-height: 4.0rem;
+  --navbar-padding-v: 1.3rem;
+  --navbar-padding-h: 2rem;
+  --version-height: 3.625rem;
+  // --sidebar-width: 20rem;
+  --sidebar-width: 16rem;
+  --sidebar-right-width: 17.7rem;
   // --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
   --sidebar-width-mobile: 100%;
   --content-width: 740px;

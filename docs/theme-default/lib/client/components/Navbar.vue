@@ -28,7 +28,7 @@ const enableDarkMode = computed(() => themeLocale.value.darkMode)
 onMounted(() => {
   // TODO: migrate to css var
   // refer to _variables.scss
-  const MOBILE_DESKTOP_BREAKPOINT = 719
+  const MOBILE_DESKTOP_BREAKPOINT = 720
   const navbarHorizontalPadding =
     getCssValue(navbar.value, 'paddingLeft') +
     getCssValue(navbar.value, 'paddingRight')
@@ -59,18 +59,19 @@ function getCssValue(el: HTMLElement | null, property: string): number {
 
 <template>
   <header ref="navbar" class="navbar">
+    <!-- <ToggleSidebarButton @toggle="$emit('toggle-sidebar')" /> -->
     <ToggleSidebarButton @toggle="$emit('toggle-sidebar')" />
-
     <span ref="navbarBrand">
       <NavbarBrand />
     </span>
+  
+    <NavbarSearch v-if="linksWrapperMaxWidth" />
 
     <div class="navbar-items-wrapper" :style="linksWrapperStyle">
       <slot name="before" />
       <NavbarItems class="can-hide" />
       <slot name="after" />
       <ToggleDarkModeButton v-if="enableDarkMode" />
-      <NavbarSearch />
     </div>
   </header>
 </template>

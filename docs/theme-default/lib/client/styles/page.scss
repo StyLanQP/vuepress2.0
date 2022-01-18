@@ -1,8 +1,8 @@
-@import '_mixins';
-@import '_variables';
+@import "_mixins";
+@import "_variables";
 
 .page {
-  padding-bottom: 2rem;
+  padding-bottom: 2.9375rem;
   display: block;
 }
 
@@ -52,27 +52,48 @@
 
 .page-nav {
   @include content_wrapper;
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 0;
-
   .inner {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--c-border);
     min-height: 2rem;
     margin-top: 0;
-    border-top: 1px solid var(--c-border);
     transition: border-color var(--t-color);
-    padding-top: 1rem;
+    padding-top: 0rem;
     overflow: auto;
+    a {
+      color: #17233d;
+      font-size: 14px;
+      &:hover {
+        color: var(--c-brand);
+      }
+    }
   }
 
   .prev {
     a:before {
-      content: '←';
+      content: "";
+      width: 12px;
+      height: 9px;
+      transform: rotate(-90deg);
+      margin-right: 4px;
+      display: inline-block;
+      background: url(/images/jianTouActive.svg) no-repeat;
+      color: var(--c-brand);
     }
   }
   .next {
     float: right;
     a:after {
-      content: '→';
+      content: "";
+      width: 12px;
+      height: 9px;
+      display: inline-block;
+      transform: rotate(90deg);
+      margin-left: 4px;
+      background: url(/images/jianTouActive.svg) no-repeat;
+      color: var(--c-brand);
     }
   }
 }

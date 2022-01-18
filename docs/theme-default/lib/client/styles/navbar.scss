@@ -1,17 +1,21 @@
-@import '_variables';
+@import "_variables";
 
 .navbar {
   --navbar-line-height: calc(
     var(--navbar-height) - 2 * var(--navbar-padding-v)
   );
-
+  box-shadow: 0px 6px 10px 3px rgb(182 197 227 / 25%);
   padding: var(--navbar-padding-v) var(--navbar-padding-h);
   line-height: var(--navbar-line-height);
 
   .logo {
-    height: var(--navbar-line-height);
-    margin-right: var(--navbar-padding-v);
-    vertical-align: top;
+    // height: var(--navbar-line-height);
+    // margin-right: var(--navbar-padding-v);
+    // vertical-align: top;
+    // height: 16px;
+    width: 184px;
+    vertical-align: middle;
+    margin-top: -2px;
   }
 
   .site-name {
@@ -35,6 +39,28 @@
     .search-box {
       flex: 0 0 auto;
       vertical-align: top;
+    }
+  }
+  .search-box {
+    &::before {
+      content: "|";
+      color: #c5c8ce;
+      display: inline-block;
+      font-size: 14px;
+      margin: 0 2rem 0 1.2rem;
+    }
+    input {
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid #c5c8ce;
+      height: 1.2rem;
+      padding: 0 0.5rem 0.2rem 1.4rem;
+      width: 180px;
+      background: var(--search-bg-color) url(/images/search.svg) 0rem 0.05rem
+        no-repeat;
+      &::placeholder {
+        color: #ced2d9;
+      }
     }
   }
 }
@@ -65,11 +91,16 @@
   a {
     display: inline-block;
     line-height: 1.4rem;
-    color: inherit;
+    font-style: normal;
+    font-size: 16px;
+    // font-weight: 500;
+    color: var(--c-text-navbar-inherit);
 
     &:hover,
     &.router-link-active {
-      color: var(--c-text-accent);
+      // color: var(--c-text-accent);
+      font-weight: 600;
+      color: var(--c-text-active);
     }
   }
 
@@ -97,17 +128,20 @@
   .navbar-items a {
     &:hover,
     &.router-link-active {
-      color: var(--c-text);
+      // color: var(--c-text);
+      font-weight: 600;
+      color: var(--c-text-active);
     }
   }
 
-  .navbar-item > a {
-    &:hover,
-    &.router-link-active {
-      margin-bottom: -2px;
-      border-bottom: 2px solid var(--c-text-accent);
-    }
-  }
+  // .navbar-item > a {
+  //   &:hover,
+  //   &.router-link-active {
+  //     margin-bottom: -2px;
+  //     // border-bottom: 2px solid var(--c-text-accent);
+  //     color: var(--c-text-navbar-active);
+  //   }
+  // }
 }
 
 /**
@@ -115,8 +149,10 @@
  */
 .toggle-sidebar-button {
   position: absolute;
+  z-index: 100;
   top: 0.6rem;
-  left: 1rem;
+  // left: 1rem;
+  right: 1.5rem;
   display: none;
   padding: 0.6rem;
   cursor: pointer;
@@ -145,7 +181,7 @@
   }
 }
 
-@media screen and (max-width: $MQMobile) {
+@media screen and (max-width: $MQNarrow) {
   .toggle-sidebar-button {
     display: block;
   }

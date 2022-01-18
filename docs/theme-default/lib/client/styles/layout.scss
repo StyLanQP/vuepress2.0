@@ -15,7 +15,7 @@
   right: 0;
   height: var(--navbar-height);
   box-sizing: border-box;
-  border-bottom: 1px solid var(--c-border);
+  // border-bottom: 1px solid var(--c-border);
   background-color: var(--c-bg-navbar);
   transition: background-color var(--t-color), border-color var(--t-color);
 }
@@ -37,8 +37,11 @@
   background-color: var(--c-bg-sidebar);
   transition: transform var(--t-transform), background-color var(--t-color),
     border-color var(--t-color);
+    &:not(.sidebar) {
+      height: calc(100vh - var(--version-height) - var(--navbar-height));
+    }
   &::-webkit-scrollbar {
-    width: 7px;
+    width: 2px;
   }
   &::-webkit-scrollbar-track {
     background-color: var(--c-border);
@@ -48,6 +51,7 @@
   }
 }
 .sidebarRight {
+  width: var(--sidebar-right-width);
   left: auto;
   right: 0;
   border-right: none;
@@ -120,6 +124,10 @@
   }
 }
 
+table, p, ul, ol {
+  margin-bottom: 0;
+}
+
 h1,
 h2,
 h3,
@@ -127,18 +135,24 @@ h4,
 h5,
 h6 {
   .theme-default-content:not(.custom) > & {
-    margin-top: calc(0.5rem - var(--navbar-height));
+    margin-top: calc(1rem - var(--navbar-height));
     padding-top: calc(1rem + var(--navbar-height));
-    margin-bottom: 0;
-
+    // margin-bottom: 1.5rem;
+    padding-bottom: 0;
+    +table,
+    +p,
+    +ul,
+    +ol {
+      margin-top: 0;
+    }
     &:first-child {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
 
-      + p,
-      + pre,
-      + .custom-container {
-        margin-top: 2rem;
-      }
+      // + p,
+      // + pre,
+      // + .custom-container {
+      //   margin-top: 2rem;
+      // }
     }
   }
 }
@@ -170,14 +184,14 @@ h6 {
 @media (max-width: $MQNarrow) {
   .sidebar {
     font-size: 15px;
-    width: var(--sidebar-width-mobile);
+    // width: var(--sidebar-width-mobile);
   }
   .sidebar.sidebarRight {
     display: none;
   }
 
   .page {
-    padding-left: var(--sidebar-width-mobile);
+    // padding-left: var(--sidebar-width-mobile);
     padding-right: 0;
   }
 }
@@ -187,6 +201,7 @@ h6 {
   .sidebar {
     top: 0;
     padding-top: var(--navbar-height);
+    width: var(--sidebar-width-mobile);
     transform: translateX(-100%);
   }
 
